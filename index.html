@@ -1,21 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <script>
-      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
-        CSS.supports('top: constant(a)'))
-      document.write(
-        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
-        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
-    </script>
-    <title></title>
-    <!--preload-links-->
-    <!--app-context-->
-  </head>
-  <body>
-	<a href="https://jyl5421.github.io/jyl_01.github.io/">看这里看着里！</a>
-    <div id="app"><!--app-html--></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		a:link {
+					color: #838398;
+					text-decoration: none;
+				}
+		
+				a:visited {
+					color: black;
+					text-decoration: none;
+				}
+		
+				a:hover {
+					color: hotpink;
+					text-decoration: none;
+				}
+		
+				a:active {
+					color: blue;
+					text-decoration: none;
+				}
+		#table {
+			margin: 0 auto;
+			width: 200px;
+			height: 200px;
+		}
+		#bg {
+			background-color: #d8efb9;
+			text-align: center;
+			border-collapse: collapse;
+			border-radius: 10px;
+			padding: 20px;
+			width: 80px;
+			height: 10px;
+			}
+		#dz {
+				font-family: verdana;
+				font-size: 30px;
+				font-weight: bold;
+			}
+		</style>
+	<body>
+		<div id="dz">实验一</div><br>
+		<table>
+			<tr>
+				<td id="bg"><a href="https://jyl5421.github.io/jyl_01.github.io/demos/chap1-demo-1.html">demo1-1</a>
+				</td>
+				<td id="bg"><a href="https://jyl5421.github.io/jyl_01.github.io/demos/chap1-demo-2.html">demo1-2</a>
+				</td>
+				<td id="bg"><a href="https://jyl5421.github.io/jyl_01.github.io/demos/chap1-demo-3.html">demo1-3</a>
+				</td>
+				<td id="bg"><a href="https://jyl5421.github.io/jyl_01.github.io/demos/chap1-demo-4.html">demo1-4</a>
+				</td>
+				<td id="bg"><a href="https://jyl5421.github.io/jyl_01.github.io/demos/chap1-demo-5.html">demo1-5</a>
+				</td>
+			</tr>
+		</table>
+	</body>
 </html>
